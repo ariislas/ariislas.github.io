@@ -1,1 +1,151 @@
+body {
+    background: #82B8D9;
+    color: var(--azul-oscuro);
+    font-family: Arial, sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+    color: #263B5E;
+}
+
+.etiqueta {
+    color: #806CA8;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/* MENÚ */
+.navbar {
+    background-color: var(--blanco) !important;
+}
+
+.navbar-brand {
+    color: var(--azul-oscuro);
+}
+
+.nav-link {
+    color: var(--azul-oscuro);
+}
+
+.nav-link:hover {
+    color: #806CA8;
+}
+
+/* INICIO */
+.inicio {
+    background-color: var(--azul-claro);
+}
+
+.inicio h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.inicio h1 span {
+    color: #806CA8;
+}
+
+.inicio h3 {
+    color: var(--azul-oscuro);
+}
+
+.foto {
+    width: 260px;
+    height: 300px;
+    margin: auto;
+    border: 8px solid var(--morado);
+    border-radius: 45% 45% 20px 20px;
+    background-color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BOTONES */
+.boton-principal {
+    background-color: var(--azul-oscuro);
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.boton-principal:hover {
+    background-color: var(--morado);
+    color: var(--azul-oscuro);
+}
+
+/* SECCIONES */
+.fondo-azul {
+    background-color: #E8F1F8;
+}
+
+.tarjeta {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #263B5E15;
+}
+
+.experiencia {
+    padding: 20px;
+    border-left: 4px solid var(--morado);
+    background-color: white;
+}
+
+.imagen-proyecto {
+    height: 150px;
+    background-color: var(--azul-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlace {
+    color: #806CA8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* CONTACTO */
+.contacto {
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+.contacto h2 {
+    color: white;
+}
+
+.contacto .etiqueta {
+    color: var(--azul);
+}
+
+.boton-contacto {
+    background-color: var(--morado);
+    color: var(--azul-oscuro);
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.red-social {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1D2F4D;
+    color: white;
+}
+
+/* ADAPTACIÓN PARA CELULARES */
+@media (max-width: 768px) {
+    .inicio h1 {
+        font-size: 32px;
+    }
+
+    .foto {
+        width: 220px;
+        height: 250px;
+    }
+}
