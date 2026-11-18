@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,7 +7,7 @@
     <title>Mi Portafolio</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,7 +26,6 @@
 
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
-
                     <li class="nav-item">
                         <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
@@ -51,7 +49,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -63,7 +60,6 @@
             <div class="row align-items-center">
 
                 <div class="col-md-7 text-center text-md-start">
-
                     <p class="etiqueta">BIENVENIDO/A A MI PORTAFOLIO</p>
                     <h1>Hola, soy <span>Aranza Islas</span></h1>
                     <h3>Desarrolladora Fullstack</h3>
@@ -72,21 +68,20 @@
                     y aportar valor a través de la tecnología.
 
                     <p class="mt-3">
-                        Estoy enfocada en el desarrollo web, trabajando con tecnologías como Java, Boopstrapt, SQL, JavaScript, HTML y CSS para crear 
-                        aplicaciones web. Me apasiona la programación, explorar nuevas tecnologías y transformar ideas en soluciones funcionales. 
+                        Me apasiona la programación, explorar nuevas tecnologías y transformar ideas en soluciones funcionales. 
                     </p>
 
-                    <a href="#sobre-mi" class="btn boton-principal mt-3">
-                        Conóceme
-                    </a>
-
+                    <div class="hero-actions">
+                    <a class="button button-primary" href="#sobre-mi">Conóceme</a>
+                    <!-- Sustituye # por la ruta de tu CV en PDF cuando lo tengas. -->
+                    <a class="button button-outline" href="./curriculum/Aranza Islas - Curriculum.pdf" target="_blank" rel="noopener">Ver CV</a>
+                    </div>
                 </div>
 
                 <div class="col-md-5 text-center mt-4 mt-md-0">
-
-                    <!-- fotografía profesional -->
+                    <img class="img-fluid" src="./Imagenes/perfil.png" alt="Mi foto">
                     <div class="foto">
-                        <span>Mi fotografía</span>
+                        <span>Mi avatar</span>
                     </div>
                 </div>
 
@@ -104,10 +99,9 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-9 text-center">
-                    <p>
-                        Soy egresada de Ingeniería en Comunicaciones y Electrónica por el IPN-ESIME y Desarrolladora Java Full Stack formada en Generation México. 
-                        He desarrollado proyectos web, creado landing pages y participado en hackatones, aplicando tecnologías como Java, Spring Boot, SQL, JavaScript,
-                        HTML, CSS y Bootstrap. Estas experiencias me han permitido fortalecer mis habilidades de programación, trabajo colaborativo y resolución de
+                    <p> 
+                        Estoy enfocada en el desarrollado proyectos web, he creado landing pages y participado en hackatones, aplicando tecnologías como Java, Spring 
+                        Boot, SQL, JavaScript, HTML, CSS y Bootstrap. Estas experiencias me han permitido fortalecer mis habilidades de programación, trabajo colaborativo y resolución de
                         problemas. Me interesa construir soluciones de software funcionales y continuar creciendo profesionalmente en area de desarrollo web. 
                     </p>
                 </div>
@@ -119,7 +113,6 @@
     <!-- FORTALEZAS -->
     <section class="fondo-azul py-5">
         <div class="container">
-
             <div class="text-center mb-4">
                 <p class="etiqueta">LO QUE ME DISTINGUE</p>
                 <h2>Mis fortalezas</h2>
@@ -157,7 +150,6 @@
         </div>
     </section>
 
-
     <!-- EXPERIENCIA -->
     <section id="experiencia" class="py-5">
         <div class="container">
@@ -171,7 +163,9 @@
                 <p class="etiqueta">Diciembre 2024 - Junio 2025</p>
                 <h4>Asistente general</h4>
                 <h6> Dirección General Aprende</h6>
-                <!-- Describe tus actividades y responsabilidades -->
+                Supervisé la calidad de audio y video mediante el monitoreo de señales y niveles de sonido para mantener la continuidad y calidad de las transmisiones en vivo.
+                Configuré y operé vMix y manejé de forma básica la consola de sonido para ecualizar, eqilibrar los niveles de audio para hacer pruebas y durante las producciones en vivo.
+                Instalé y enruté líneas de audio, apoyé en la operación de cámaras y gestioné el inventario y mantenimiento básico de equipos audiovisuales para favorecer su disponibilidad y correcto funcionamiento.
             </div>
         </div>
     </section>
@@ -180,7 +174,7 @@
     <section id="proyectos" class="fondo-azul py-5">
         <div class="container">
             <div class="text-center mb-4">
-                <p class="etiqueta">TRABAJO SELECCIONADO</p>
+                <p class="etiqueta">APLICACION DE TECNOLOGIAS</p>
                 <h2>Mis proyectos</h2>
             </div>
 
@@ -189,11 +183,28 @@
                 <div class="col-md-4">
                     <div class="card tarjeta h-100">
                         <div class="imagen-proyecto">
-                            Imagen del proyecto
+                            <img class="img-fluid" src="./Imagenes/pure.png" alt="">
                         </div>
                         <div class="card-body">
                             <h5>Pure</h5>
                             <p>Pagina web</p>
+                            <h6>descripcion de tu papel en el proyecto</h6>
+                            <a href="https://github.com/aztrax369i/Pure.com.git" class="enlace">
+                                Ver proyecto →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card tarjeta h-100">
+                        <div class="imagen-proyecto">
+                            Imagen del proyecto
+                        </div>
+                        <div class="card-body">
+                            <h5>Nombre del proyecto</h5>
+                            <p>Base de datos</p>
+                            <h6>descripcion de tu papel en el proyecto</h6>
                             <a href="#" class="enlace">
                                 Ver proyecto →
                             </a>
@@ -209,6 +220,7 @@
                         <div class="card-body">
                             <h5>Nombre del proyecto</h5>
                             <p>Hackaton 24hrs</p>
+                            <h6>descripcion de tu papel en el proyecto</h6>
                             <a href="#" class="enlace">Ver proyecto →</a>
                         </div>
                     </div>
@@ -217,19 +229,19 @@
                 <div class="col-md-4">
                     <div class="card tarjeta h-100">
                         <div class="imagen-proyecto">
-                            <img src="./Imagenes/JaguarX.png" alt="Imagen JaguarX">
+                            <img class="img-fluid" src="./Imagenes/jaguarx.png" alt="Imagen JaguarX">
                         </div>
                         <div class="card-body">
                             <h5>Jaguarx</h5>
                             <p>Landing Page - Hackaton 24hrs</p>
-                            <!-- <a href="https://github.com/DanielMirandaAyalaDev/jaguarx.git" class="enlace">Ver proyecto →</a> -->
+                            <h6>Desarrolladora Frontend</h6>
+                            <a href=" " class="enlace">Ver proyecto →</a> -
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- HABILIDADES -->
     <section id="habilidades" class="py-5">
@@ -250,14 +262,14 @@
                 <div class="col-md-4">
                     <div class="card tarjeta p-3 h-100">
                         <h5>Backend</h5>
-                        <p>Java, MySQL</p>
+                        <p>Java, MySQL, Python</p>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card tarjeta p-3 h-100">
                         <h5>Ingenieria</h5>
-                        <!-- Agrega tus lenguajes y herramientas -->
+                        <p>c++, Matlab</p> 
                     </div>
                 </div>
             </div>
@@ -291,7 +303,7 @@
     <!-- CONTACTO -->
     <section id="contacto" class="contacto py-5">
         <div class="container text-center">
-            <p class="etiqueta">HABLEMOS</p>
+            <p class="etiqueta">TRABAJEMOS JUNTOS</p>
             <h2>Contacto</h2>
             <p>
                 <!--mensaje de contacto-->
@@ -312,14 +324,12 @@
     <!-- PIE DE PÁGINA -->
     <footer class="text-center py-3">
         <p>
-            © <span id="anio"></span> Aranza.
-            Todos los derechos reservados.
+            © <span id="anio"></span>. Mi Portafolio Aranza.
         </p>
     </footer>
 
     <!-- JavaScript de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
     <!-- JavaScript -->
     <script src="js/script.js"></script>
 
